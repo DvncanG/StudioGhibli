@@ -1,0 +1,3 @@
+Para acceder al formulario tienes que entrar desde el footer en el link "Crear Cuenta".
+Para las paginas personaje_x, se accede desde la "mini-galeria" de peliculas.
+Para acceder a tienda es igual que el formulario, se accede desde el footer en el apartado "Tienda".

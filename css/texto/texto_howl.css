@@ -1,0 +1,38 @@
+@font-face {
+    font-family:'Ghibli';
+    src: url("../../assets/fonts/Ghibli.otf");
+}
+.descripcion_personajes_derecha{
+    width: 700px;
+   display: inline-block;
+   border: 2px solid black;
+   vertical-align: top;
+   margin-top: 10px;
+    margin-left: 180px;
+    margin-top: 210px;
+    background-color: burlywood;
+    padding-right: 10px;
+    text-align: justify;
+}
+.descripcion_personajes_izquierda{
+    width: 700px;
+   display: inline-block;
+   border: 2px solid black;
+   vertical-align: top;
+   margin-top: 200px;
+    background-color: burlywood;
+    text-align: justify;
+    margin-right: 160px;
+}
+.descripcion_personajes_sophie{
+    width: 700px;
+   display: inline-block;
+   border: 2px solid black;
+   vertical-align: top;
+   margin-top: 10px;
+    margin-left: 180px;
+    margin-top: 245px;
+    background-color: burlywood;
+    padding-right: 10px;
+    text-align: justify;
+}

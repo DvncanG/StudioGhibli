@@ -1,0 +1,27 @@
+.footer{
+    font-family: 'Ghibli';
+    background-color: #48AEF0;
+    width: 100%;
+}
+.footer_container{
+    margin: auto;
+    vertical-align: top;
+    text-align: center;
+    display: inline-block;
+    margin-left: 35px;
+}
+.f_texto{
+    text-decoration: none;
+    color: whitesmoke;
+    text-align: center;
+    margin-left: 10px;
+    list-style-type: none;
+    border-right: 1px solid grey;
+}
+.f_texto_color{
+    color:  whitesmoke;
+    text-decoration: none;
+}
+.f_texto_color:hover{
+    color: #3589c2;
+}

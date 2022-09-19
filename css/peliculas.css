@@ -1,0 +1,55 @@
+body{
+    margin: 0;
+    text-align: center;
+    background-image: url(../assets/imagenes/Chihiro/FondoChihiro.jpg);
+    background-size: cover;
+}
+.main_peliculas{
+    margin: 0 auto;
+    height: 100%;
+    width: 1500px;
+}
+.contenedor_main{
+    width: 1250px;
+    margin: auto;
+    background-color: blanchedalmond;
+    opacity: 92%;
+    font-family: 'Ghibli';
+}
+.article_chihiro{
+    margin: 0;
+    width: 475px;
+    margin-top: 20px;
+    vertical-align: top;
+    display: inline-block;
+}
+.texto_main{
+    text-align:justify;
+}
+.article_Howl{
+    width: 475px;
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 0;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+.article_totoro{
+    margin-top: 10px;
+    width: 475px;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 35px;
+}
+.galeria{
+ width: 500px;
+ display: inline-block;
+ margin-top: -140px;
+}
+.foto_galeria{
+    width: 33%;
+    margin: 5px;
+    border: 2px solid black;
+    border-radius:0.5rem;
+    display: inline-block;
+}

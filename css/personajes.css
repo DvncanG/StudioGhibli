@@ -1,0 +1,27 @@
+body{
+    margin: auto;
+    text-align: center;
+}
+.main_personajes{
+    background-image: url(../assets/imagenes/Chihiro/chihiro_personajes\ \(1\).jpg);
+    background-size:cover;
+}
+.contenedor_main{
+    width: 1250px;
+    background-color: blanchedalmond;
+    opacity: 92%;
+    font-family: 'Ghibli';
+    display: inline-block;
+}
+.personajes_espacio{
+    width: 300px;
+    display: inline-block;
+}
+.personajes_foto{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 100%;
+    border: 2px solid black;
+    background-color: burlywood;
+    text-align: center;
+}

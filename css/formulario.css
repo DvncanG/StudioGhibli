@@ -1,0 +1,36 @@
+body{
+    margin: auto;
+    text-align: center;
+    background-image: url(../assets/imagenes/fondo_formulario.jpg);
+    background-size: cover;
+}
+.main_formulario{
+    margin: auto;
+    width: 1500px;
+    height: 100%;
+    margin-bottom: 100px; 
+    
+}
+.formulario{
+    border-radius: 5px;
+    background-color: rgb(0, 0, 0);
+    opacity: 80%;
+    width: 550px;
+    margin: auto;
+    margin-top: 20px;
+    color: white;
+    font-size: 1.25rem;
+}
+
+.texto_formulario{
+    font-family: 'Ghibli';
+    text-align: justify;
+    padding: 25px;
+}
+.inputs{
+    border-radius: 5px;
+}
+.submit{
+    margin-left: 220px;
+    border-radius: 5px;
+}

@@ -1,0 +1,76 @@
+.titulo{
+    font-family: 'Ghibli';
+}
+body{
+    margin: auto;
+    text-align: center;
+    background-image: url(../assets/imagenes/fondo_index.jpg);
+    background-size: cover;
+}
+.main{
+    margin: auto;
+    width: 1500px;
+    
+    font-family: 'Ghibli';
+}
+.contenedor_main{
+    margin: auto;
+    width: 850px;
+    margin: auto;
+    background-color: blanchedalmond;
+    opacity: 92%;
+    display: inline-block;
+}
+.texto_principal{
+    padding: 30px;
+    text-align:justify;
+    font-family: 'Ghibli';
+}
+.texto_p{
+    width: 75%;
+    margin-left: 100px;
+    padding: 30px;
+    text-align:justify;
+    font-family: 'Ghibli';
+}
+.director{
+    width: 475px;
+    vertical-align: top;
+    display: inline-block;
+}
+.carrera{
+    width: 500px;
+}
+.contenedor_lateral{
+ width: 400px;
+ display: inline-block;
+ text-align: center;
+ vertical-align: top;
+ background-color: blanchedalmond;
+ opacity: 92%;
+}
+.foto_lateral_marco{
+    width: 200px;
+}
+.tabla{
+    width: 250px;
+    text-align: justify;
+    border: 1px solid black;
+}
+.foto{
+    width: 100%;
+    margin-top: 20px;
+    margin-left: 100px;
+    border-radius: 3px;
+}
+.datos_hayao{
+text-align: justify;
+margin-left: 100px;
+}
+.foto_2{
+    width: 100%;
+    margin-left: 100px;
+    margin-top: 20px;
+    border-radius: 3px;
+}
+

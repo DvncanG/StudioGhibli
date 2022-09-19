@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/menu_footer/menu.css">
+    <link rel="stylesheet" href="../css/menu_footer/footer.css">
+    <link rel="stylesheet" href="../css/formulario.css">
+    <link rel="shortcut icon" href="../assets/imagenes/icono.ico" type="image/x-icon">
+    <title>Crea tu Cuenta!</title>
+</head>
+
+<body>
+    <header class="header">
+        <div class="contenedor_logo_menu">
+            <a href="index.html"> <img src="../assets/imagenes/studio-ghibli-logo.svg" class="logo_menu" alt=""> </a>
+        </div>
+        <nav class="nav_menu">
+            <ul class="lista_nav">
+                <li class="lista">
+                    <a href="../index.html" class="a_texto">Inicio</a>
+                </li>
+                <li class="lista">
+                    <a href="../pages/peliculas.html" class="a_texto">Peliculas</a>
+                </li>
+                <li class="lista">
+                    <a href="../pages/director.html" class="a_texto">Director</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+    <main class="main_formulario">
+        <form class="formulario" method="">
+            <div class="texto_formulario">
+
+                <label >Nombre</label>
+                <input class="inputs" type="text" placeholder="Nombre">
+                <br><br>
+                <label>Apellidos</label>
+                <input type="text" class="inputs" placeholder="Apellidos">
+                <br>
+                <br>
+                <label>Nickname</label>
+                <input class="inputs" type="text" placeholder="Nickname">
+                <br><br>
+                <label>Email</label>
+                <input class="inputs" type="email" placeholder="ejemplo@gmail.com">
+                <br><br>
+                <label>Contraseña</label>
+                <input class="inputs" type="password" placeholder="********">
+                <br><br>
+                <label>Repite Contraseña</label>
+                <input class="inputs" type="password" placeholder="********">
+            
+                <br><br>
+                <label>Genero</label><br>
+                <input type="radio" name="Genero"> Hombre<br>
+                <input type="radio" name="Genero"> Mujer
+                <br><br>
+                <label for="">Edad</label>
+                <br>
+                <input class="inputs" type="number" name="Edad" id="" required min="16" max="99">
+                <br><br>
+                <label for="OrdenadoPor">¿Qué película te gusta más?</label>
+                <br>
+                <select class="inputs" name="OrdenadoPor" id="">
+                    <option value=""></option>
+                    <option value="">El Castillo Ambulante</option>
+                    <option value="">Mi Vecino Totoro</option>
+                    <option value="">El Viaje de Chihiro</option>
+                </select>
+                <br><br>
+                <label for="">
+                <input type="checkbox"> Aceptar términos y condiciones
+                <br><br>
+                <input class="submit" type="submit" value="Crear Cuenta">
+
+            </div>
+        </form>
+        </div>
+    </main>
+    <footer class="footer">
+
+        <div class="footer_container">
+            <nav>
+                <ul class="f_texto">
+                    <h2>Paginas</h2>
+                    <li>
+                        <a class="f_texto_color" href="../index.html">Inicio</a>
+                    </li>
+                    <li>
+                        <a class="f_texto_color" href="../pages/tienda.html">Tienda</a>
+                    </li>
+                    <li>
+                        <a class="f_texto_color" href="#">Servicios</a>
+                    </li>
+                    <li><a class="f_texto_color" href="/pages/formulario.html">Crear Cuenta</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="footer_container">
+            <nav>
+                <ul class="f_texto">
+                    <h2>-----</h2>
+                    <li>
+                        <a class="f_texto_color" href="#">Inicio</a>
+                    </li>
+                    <li>
+                        <a class="f_texto_color" href="#">Tienda</a>
+                    </li>
+                    <li>
+                        <a class="f_texto_color" href="#">Servicios</a>
+                    </li>
+                    <li><a class="f_texto_color" href="#">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="footer_container">
+            <nav>
+
+                <ul class="f_texto">
+                    <h2>Siguenos!</h2>
+                    <li>
+                        <a class="f_texto_color" href="#">Instagram</a>
+                    </li>
+                    <li>
+                        <a class="f_texto_color" href="#">Twitter</a>
+                    </li>
+                    <li>
+                        <a class="f_texto_color" href="#">Facebook</a>
+                    </li>
+                    <li><a class="f_texto_color" href="#">Google+</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+</body>
+
+</html>

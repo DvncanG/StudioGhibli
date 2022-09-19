@@ -1,0 +1,77 @@
+.titulo{
+    font-family: 'Ghibli';
+}
+body{
+    margin: auto;
+    text-align: center;
+    background-image: url(../assets/imagenes/fondo_index.jpg);
+    background-size: cover;
+}
+.main{
+    margin: auto;
+    height: 100%;
+    width: 1500px;
+    
+}
+.contenedor_main{
+    width: 1250px;
+    margin: auto;
+    background-color: blanchedalmond;
+    opacity: 92%;
+}
+.historia{
+    width: 475px;
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 40px;
+}
+.galardones{
+    display: inline-block;
+    vertical-align: top;
+    margin-left: 80px;
+    margin-bottom: 0;
+}
+.texto_p{
+    text-align:justify;
+    font-family: 'Ghibli';
+}
+.premios{
+    border: 1px solid black;
+    border-collapse: collapse;
+    display: inline-block;
+}
+td{
+    border: 1px solid black;
+    padding: 10px;
+}
+.t_head{
+    background-color: #48AEF0;
+}
+.t_body{
+    background-color: whitesmoke;
+}
+.contenedor_imagen_tabla{
+width: 500px;
+margin-top: 0;
+margin-left: 50px;
+
+}
+.imagen_tabla{
+    width: 100%;
+    margin-top: 50px;
+}
+.tematica_estetica{
+    width: 610px;
+    display: inline-block;
+    margin-bottom: 50px;
+    margin-right: 50px;
+}
+.imagen_tematica_estetica{  
+width: 515px;
+margin-top: 50px;
+display: inline-block;
+margin-right: 71px;
+}
+.imagen_tematica{
+    width: 100%;
+}
